@@ -10,7 +10,7 @@ body{
 
 
 main{
-    margin: 250px 120px;
+    margin: 205px 100px;
     background-color: white;
     border-style: solid;
     border-color: white;
@@ -20,23 +20,36 @@ main{
 
 .primerParte{
     text-align: center;
-    margin: 60px 0px 40px 0px;
+    margin: 70px 0px 10px 0px;
     color: #3d66e1;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .hola{
     margin: 0px;
-    font-size: 28px;
+    font-size: 36px;
     color: #0f2158;
     text-align: center;
-
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 1px;
+    transform: scale(1, 0.9);
 }
 
 .tercerParte{
-    margin: 20px 0px 80px 0px;
+    margin: 8px 0px 80px 0px;
+    font-size: 12px;
     color: #595959;
     text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 12;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    letter-spacing: -1px;
+    
 }
 
 .conteiner{
@@ -46,8 +59,18 @@ main{
     align-content: space-around;
 }
 
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 87;
+}
+
 .item{
-    margin: 0px 50px 30px 50px;
+    margin: -3px 20px 20px 80px;
 }
 
 .colorGris{
@@ -56,8 +79,11 @@ main{
 
 
 img{
-    width: 35px;
-    height: 35px;
+    width: 37px;
+    height: 37px;
     margin-bottom: 15px;
 }
 
+.tituloPartes{
+    
+}
